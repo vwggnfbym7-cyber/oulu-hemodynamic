@@ -15,7 +15,7 @@ const data = {
     university: "University of Oulu",
     piLabel: "Principal investigator",
     piNameLine: "Timo Kaakinen, MD, PhD, Adjunct Professor",
-    piRole: "Head of Anesthesia Services, Oulu University Hospital. Adjunct Professor of Anaesthesiology and Intensive Care, University of Oulu.",
+    piRole: "Head of Anesthesia Services, Soft Tissue, Vascular, Gynecological and Urological Surgery, Oulu University Hospital. Adjunct Professor of Anaesthesiology and Intensive Care, University of Oulu.",
     researchEyebrow: "Research profile",
     researchTitle: "Clinically grounded research on circulatory monitoring and perioperative outcomes",
     researchText: "The group works at the intersection of anaesthesiology, intensive care, cardiac surgery, high-risk noncardiac surgery, physiology and method-comparison statistics.",
