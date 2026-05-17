@@ -1,0 +1,16 @@
+<!-- In index.html: replace the current nav block near the top header. -->
+<!-- Current structure is: brand link, then <nav class="nav" aria-label="Main navigation">. -->
+<!-- Add the button after </a> of the brand link and change nav to include id="mainNav". -->
+
+<button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<nav class="nav" id="mainNav" aria-label="Main navigation">
+  <a href="#research" data-i18n="navResearch">Research</a>
+  <a href="#people" data-i18n="navPeople">People</a>
+  <a href="#publications" data-i18n="navPublications">Publications</a>
+  <a href="#contact" data-i18n="navContact">Contact</a>
+</nav>

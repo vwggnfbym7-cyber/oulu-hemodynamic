@@ -1,0 +1,36 @@
+Mobile hamburger menu patch for oulu-hemodynamic
+================================================
+
+1) index.html
+-------------
+In the header, immediately after the brand link closing </a>, add:
+
+<button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+Then change:
+
+<nav class="nav" aria-label="Main navigation">
+
+To:
+
+<nav class="nav" id="mainNav" aria-label="Main navigation">
+
+2) styles.css
+-------------
+Append the full contents of `styles-css-addition.css` to the end of `styles.css`.
+
+Because this addition is placed at the end of the stylesheet, it overrides the existing mobile rule that currently hides `.nav` under 920 px.
+
+3) script.js
+------------
+Inside function setup(), after this block:
+
+  document.querySelectorAll(".lang-btn").forEach((button) => {
+    button.addEventListener("click", () => setLanguage(button.dataset.lang));
+  });
+
+Insert the full contents of `script-js-change.js`.
