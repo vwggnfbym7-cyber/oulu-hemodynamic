@@ -70,56 +70,56 @@ const data = {
     navPublications: "Julkaisut",
     navContact: "Yhteys",
     heroBadge: "Perioperatiivinen lääketiede · Tehohoito · Monitorointi",
-    heroTitle: "Oulun perioperatiivisen ja tehohoidon hemodynamiikan tutkimusryhmä",
-    heroText: "Tutkimme verenkierron monitorointia, hapenkuljetusta, dynaamisia hemodynaamisia muuttujia ja kliinisiä hoitotuloksia perioperatiivisessa lääketieteessä, sydänkirurgiassa, suuren riskin ei-sydänkirurgiassa ja tehohoidossa.",
+    heroTitle: "Oulun perioperatiivisen lääketieteen ja tehohoidon hemodynamiikan tutkimusryhmä",
+    heroText: "Tutkimme verenkierron monitorointia, hapenkuljetusta, dynaamisia hemodynaamisia muuttujia ja kliinisiä hoitotuloksia perioperatiivisessa lääketieteessä, sydänkirurgiassa, suuren riskin muussa kirurgiassa ja tehohoidossa.",
     exploreResearch: "Tutustu tutkimukseen",
     meetGroup: "Tutustu ryhmään",
-    academicAffiliation: "Akateeminen affiliaatio",
+    academicAffiliation: "Akateeminen yhteys",
     university: "Oulun yliopisto",
     piLabel: "Vastuullinen tutkija",
     piNameLine: "Timo Kaakinen, LT, dosentti",
     piRole: "Osastonylilääkäri, pehmytkudos- ja verisuonikirurgian sekä gynekologisen ja urologisen kirurgian anestesiapalvelut, Oulun yliopistollinen sairaala. Anestesiologian ja tehohoidon dosentti, Oulun yliopisto.",
     researchEyebrow: "Tutkimusprofiili",
-    researchTitle: "Kliinisesti ankkuroitua tutkimusta verenkierron monitoroinnista ja perioperatiivisista hoitotuloksista",
-    researchText: "Ryhmä toimii anestesiologian, tehohoidon, sydänkirurgian, suuren riskin kirurgian, fysiologian ja menetelmävertailujen rajapinnassa.",
-    approachEyebrow: "Tutkimustapa",
+    researchTitle: "Kliiniseen työhön perustuvaa tutkimusta verenkierron monitoroinnista ja perioperatiivisista hoitotuloksista",
+    researchText: "Ryhmä toimii anestesiologian, tehohoidon, sydänkirurgian, suuren riskin muun kirurgian, fysiologian ja menetelmävertailujen rajapinnassa.",
+    approachEyebrow: "Lähestymistapa",
     approachTitle: "Kliinisistä monitorointisignaaleista potilaalle merkityksellisiin lopputuloksiin",
-    approachText: "Yhdistämme kliinisiä aineistoja, prospektiivisia menetelmävertailuja ja fysiologista päättelyä arvioidaksemme, miten hemodynaamisia muuttujia tulisi mitata, tulkita ja käyttää perioperatiivisessa hoidossa ja tehohoidossa.",
+    approachText: "Yhdistämme kliinisiä aineistoja, prospektiivisia menetelmävertailuja ja fysiologista päättelyä arvioidaksemme, miten hemodynaamisia muuttujia kannattaa mitata, tulkita ja hyödyntää perioperatiivisessa hoidossa ja tehohoidossa.",
     piDegree: "LT, anestesiologian ja tehohoidon dosentti",
-    piCardText: "Osastonylilääkäri, Oulun yliopistollinen sairaala. Tutkimusryhmän johtaja vuodesta 2017.",
-    piText1: "Tutkimusryhmää on johtanut Timo Kaakinen vuodesta 2017. Keskeinen tutkimusfokus on hemodynaamisten monitorointimenetelmien kliininen luotettavuus ja tulkinta sekä verenkiertomuuttujien yhteys potilaskeskeisiin lopputuloksiin.",
+    piCardText: "Osastonylilääkäri, Oulun yliopistollinen sairaala. Tutkimusryhmän vastuullinen tutkija vuodesta 2017.",
+    piText1: "Timo Kaakinen on toiminut tutkimusryhmän vastuullisena tutkijana vuodesta 2017. Keskeinen tutkimuksen painopiste on hemodynaamisten monitorointimenetelmien kliininen luotettavuus ja tulkinta sekä verenkiertomuuttujien yhteys potilaalle merkityksellisiin hoitotuloksiin.",
     piText2: "Nykyinen tutkimus yhdistää suuria retrospektiivisiä kliinisiä aineistoja, prospektiivisia menetelmävertailuja, suuren riskin perioperatiivisia kohortteja ja OYS:n tehohoitoaineistoja.",
     methodsEyebrow: "Tutkimusmenetelmät",
     methodsTitle: "Miten arvioimme monitorointitietoa",
     methodsText: "Metodologia on keskeinen osa ryhmän työtä. Keskitymme siihen, onko mittaus kliiniseen käyttöön riittävän luotettava, emme pelkästään siihen, ovatko muuttujat tilastollisesti yhteydessä toisiinsa.",
     portfolioEyebrow: "Tutkimuskokonaisuus",
     portfolioTitle: "Keskeiset tutkimuslinjat",
-    portfolioText: "Hankekokonaisuus kattaa perioperatiivisen monitoroinnin validoinnin, keuhkovaltimokatetriaineistot, hapenkuljetuksen, dynaamiset muuttujat, anestesiamenetelmät ja vieritutkimusmonitoroinnin.",
+    portfolioText: "Hankekokonaisuus kattaa perioperatiivisen monitoroinnin validoinnin, keuhkovaltimokatetriaineistot, hapenkuljetuksen, dynaamiset muuttujat, anestesiamenetelmät ja vierimittaukset.",
     researchCollaborationEyebrow: "Tutkimusyhteistyö",
-    researchCollaborationTitle: "Kliininen ja translationaalinen yhteistyö",
-    researchCollaborationText: "Ryhmä tekee yhteistyötä kliinisten yksiköiden, akateemisten kumppanien ja valikoitujen ulkoisten yhteistyökumppanien kanssa tutkimuksissa, joissa perioperatiivinen fysiologia, monitorointidata ja potilaan hoitotulokset kohtaavat.",
+    researchCollaborationTitle: "Kliininen ja translationaalinen tutkimusyhteistyö",
+    researchCollaborationText: "Ryhmä tekee yhteistyötä kliinisten yksiköiden, akateemisten kumppanien ja valikoitujen ulkoisten yhteistyökumppanien kanssa tutkimuksissa, joissa perioperatiivinen fysiologia, monitorointidata ja potilaiden hoitotulokset yhdistyvät.",
     peopleEyebrow: "Tutkijat",
     peopleTitle: "Väitöskirjatutkijat ja ohjattavat hankkeet",
-    peopleText: "Hankkeet liittyvät hemodynaamiseen monitorointiin, keuhkovaltimokatetriaineistoihin, hapenkuljetukseen, dynaamisiin muuttujiin, nestevasteisuuteen, anestesiamenetelmiin ja vierimonitorointiin.",
+    peopleText: "Hankkeet liittyvät hemodynaamiseen monitorointiin, keuhkovaltimokatetriaineistoihin, hapenkuljetukseen, dynaamisiin muuttujiin, nestevasteisuuteen, anestesiamenetelmiin ja vierimittauksiin.",
     searchPlaceholder: "Hae nimellä, otsikolla, teemalla tai ohjaajalla",
     allThemes: "Kaikki teemat",
     completedTitle: "Valmistuneet väitöskirjahankkeet",
-    selectedEyebrow: "Valikoidut julkaisut",
+    selectedEyebrow: "Valitut julkaisut",
     selectedTitle: "Keskeiset julkaisut",
-    selectedText: "Valikoitu julkaisuluettelo painottaen hemodynaamista monitorointia, sekaveren happisaturaatiota, sydämen minuuttitilavuuden monitorointia ja perioperatiivisia lopputuloksia.",
+    selectedText: "Valittu julkaisuluettelo, jossa painottuvat hemodynaaminen monitorointi, sekaveren happisaturaatio, sydämen minuuttitilavuuden monitorointi ja perioperatiiviset hoitotulokset.",
     fullPubMed: "Koko julkaisuluettelo PubMedissä",
     fullPubMedNote: "Julkaisuluettelo avautuu PubMediin.",
     clinicalTitle: "Kliininen tutkimusympäristö",
     oysImageCaption: "Uusi Oulun yliopistollinen sairaala. Kuva: OYS / Oulun yliopistollinen sairaala.",
-    clinicalText: "Ryhmä toimii Oulun yliopistollisessa sairaalassa, joka on Pohjois-Suomen yliopistollinen sairaala ja vaativan erikoissairaanhoidon keskus. Tutkimusympäristö mahdollistaa kliinisesti merkitykselliset tutkimukset perioperatiivisista, sydänkirurgisista ja tehohoidon aineistoista.",
+    clinicalText: "Ryhmä toimii Oulun yliopistollisessa sairaalassa, Pohjois-Suomen yliopistollisessa sairaalassa ja vaativan erikoissairaanhoidon keskuksessa. Tutkimusympäristö mahdollistaa kliinisesti merkitykselliset tutkimukset perioperatiivisista, sydänkirurgisista ja tehohoidon aineistoista.",
     collaborationTitle: "Yhteistyö",
-    collaborationText: "Olemme avoimia yhteistyölle hemodynaamisen monitoroinnin, menetelmävertailujen, perioperatiivisten hoitotulosten ja kliinisen datatutkimuksen alueilla.",
+    collaborationText: "Olemme avoimia yhteistyölle hemodynaamisen monitoroinnin, menetelmävertailututkimuksen, perioperatiivisten hoitotulosten ja kliinisen datatutkimuksen alueilla.",
     dataEyebrow: "Data ja tietosuoja",
     dataTitle: "Tutkimusluvat ja tietosuoja",
     dataText: "Kaikki kliiniset tutkimukset toteutetaan asianmukaisten organisaatiolupien, tarvittavan eettisen arvioinnin ja soveltuvan tietosuojalainsäädännön mukaisesti.",
     contactEyebrow: "Yhteys",
     contactTitle: "Kiinnostaako yhteistyö?",
-    contactText: "Tutkimusyhteistyöhön, väitöskirjahankkeisiin tai perioperatiivisen hemodynamiikan ja monitoroinnin tutkimukseen liittyvissä kysymyksissä voit olla yhteydessä vastuulliseen tutkijaan.",
+    contactText: "Tutkimusyhteistyöhön, väitöskirjahankkeisiin sekä perioperatiivisen hemodynamiikan ja monitoroinnin tutkimukseen liittyvissä kysymyksissä voit olla yhteydessä vastuulliseen tutkijaan.",
     contactAffiliation: "Oulun yliopistollinen sairaala · Oulun yliopisto",
     footerGroup: "Oulun perioperatiivisen ja tehohoidon hemodynamiikan tutkimusryhmä",
     footerAffiliation: "Oulun yliopistollinen sairaala · Oulun yliopisto · Pohde",
@@ -156,8 +156,8 @@ const methods = [
 
 const portfolio = [
   { title: "Pulmonary artery catheter data", fiTitle: "Keuhkovaltimokatetriaineistot", text: "Mixed venous oxygen saturation, cardiac index, lactate and vasoactive support after cardiac surgery and in intensive care.", fiText: "Sekaveren happisaturaatio, sydänindeksi, laktaatti ja vasoaktiivinen tuki sydänkirurgian jälkeen ja tehohoidossa." },
-  { title: "Monitoring validation", fiTitle: "Monitoroinnin validointi", text: "Comparisons of invasive, mini-invasive and non-invasive hemodynamic monitoring methods in clinically relevant settings.", fiText: "Invasiivisten, mini-invasiivisten ja noninvasiivisten hemodynaamisten monitorointimenetelmien vertailu kliinisissä asetelmissa." },
-  { title: "Perioperative outcomes", fiTitle: "Perioperatiiviset lopputulokset", text: "Anaesthesia methods, recovery, pain, opioid consumption and outcomes after lower-limb and high-risk surgery.", fiText: "Anestesiamenetelmät, toipuminen, kipu, opioidikulutus ja lopputulokset alaraaja- ja suuren riskin kirurgian jälkeen." }
+  { title: "Monitoring validation", fiTitle: "Monitorointimenetelmien validointi", text: "Comparisons of invasive, mini-invasive and non-invasive hemodynamic monitoring methods in clinically relevant settings.", fiText: "Invasiivisten, mini-invasiivisten ja noninvasiivisten hemodynaamisten monitorointimenetelmien vertailu kliinisissä tutkimusasetelmissa." },
+  { title: "Perioperative outcomes", fiTitle: "Perioperatiiviset hoitotulokset", text: "Anaesthesia methods, recovery, pain, opioid consumption and outcomes after lower-limb and high-risk surgery.", fiText: "Anestesiamenetelmät, toipuminen, kipu, opioidikulutus ja lopputulokset alaraaja- ja suuren riskin kirurgian jälkeen." }
 ];
 
 const collaborations = [
@@ -167,28 +167,234 @@ const collaborations = [
 ];
 
 const projects = [
-  ["Heikki Ronkainen", "Pulmonary artery catheter in abdominal aortic surgery", "Hemodynamic monitoring"],
-  ["Sanna Paaso", "Reliability of stroke volume variation values in mini-invasive hemodynamic monitors", "Dynamic parameters"],
-  ["Pasi Tuukkanen", "Validation of arterial and peripheral pulse contour techniques in cardiac surgery", "Pulse contour methods"],
-  ["Suvi Niemi", "Validation of mini-invasive hemodynamic monitoring devices in high-risk noncardiac surgery", "High-risk surgery"],
-  ["Maaret Laakso", "Dynamic circulatory parameters in healthy adults and cardiac surgical patients", "Dynamic parameters"],
-  ["Joonas Kähkönen", "Transpulmonary thermodilution compared with bolus thermodilution cardiac output", "Thermodilution"],
-  ["Jemina Rissanen", "Pulse contour methods in predicting fluid responsiveness", "Fluid responsiveness"],
-  ["Petteri Holm", "Determinants of outcome in cardiac surgical patients monitored with pulmonary artery catheter", "PAC and outcomes"],
-  ["Janne Pikkarainen", "Vasoactive-inotropic score and norepinephrine requirements as markers of outcome", "ICU outcomes"],
-  ["Henrik Rousti", "Derived hemodynamic parameters as determinants of outcome in cardiac surgical patients", "Oxygen delivery"],
-  ["Henna Yliheikkilä", "The role of mixed venous oxygen saturation and arterial lactate as predictors of mortality and organ dysfunction after cardiac surgery", "Oxygen delivery"],
-  ["Pasi Lehto", "Comparisons of spinal and general anaesthesia in tibial shaft and ankle fracture surgery", "Anaesthesia methods"],
-  ["Mattias Ebeling", "Comparisons of different anaesthesia methods in lower limb surgery", "Anaesthesia methods"],
-  ["Marika Pada", "Point-of-care anticoagulation monitoring in cardiovascular procedures", "Point-of-care monitoring"]
-].map(([name, title, theme]) => ({ name, title, theme, supervisor: "Timo Kaakinen" }));
+  {
+    name: "Heikki Ronkainen",
+    title: "Pulmonary artery catheter in abdominal aortic surgery",
+    fiTitle: "Pulmonary artery catheter in abdominal aortic surgery",
+    theme: "Hemodynamic monitoring",
+    fiTheme: "Hemodynaaminen monitorointi",
+    supervisor: "Tiina Erkinaro",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Sanna Paaso",
+    title: "Reliability of stroke volume variation values in mini-invasive hemodynamic monitors",
+    fiTitle: "Reliability of stroke volume variation values in mini-invasive hemodynamic monitors",
+    theme: "Dynamic circulatory parameters",
+    fiTheme: "Dynaamiset verenkiertomuuttujat",
+    supervisor: "Mari Pohjola",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Pasi Tuukkanen",
+    title: "Validation of arterial and peripheral pulse contour techniques in cardiac surgery",
+    fiTitle: "Validation of arterial and peripheral pulse contour techniques in cardiac surgery",
+    theme: "Hemodynamic monitoring",
+    fiTheme: "Hemodynaaminen monitorointi",
+    supervisor: "Janne Liisanantti",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Suvi Niemi",
+    title: "Validation of mini-invasive hemodynamic monitoring devices in high-risk noncardiac surgery",
+    fiTitle: "Validation of mini-invasive hemodynamic monitoring devices in high-risk noncardiac surgery",
+    theme: "High-risk noncardiac surgery",
+    fiTheme: "Suuren riskin muu kirurgia",
+    supervisor: "Mari Pohjola",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Maaret Laakso",
+    title: "Dynamic circulatory parameters in healthy adults and cardiac surgical patients",
+    fiTitle: "Dynamic circulatory parameters in healthy adults and cardiac surgical patients",
+    theme: "Dynamic circulatory parameters",
+    fiTheme: "Dynaamiset verenkiertomuuttujat",
+    supervisor: "Panu Piirainen",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Joonas Kähkönen",
+    title: "Reliability of transpulmonary thermodilution compared with bolus thermodilution cardiac output in cardiac surgery",
+    fiTitle: "Reliability of transpulmonary thermodilution compared with bolus thermodilution cardiac output in cardiac surgery",
+    theme: "Thermodilution methods",
+    fiTheme: "Termodiluutiomenetelmät",
+    supervisor: "Panu Piirainen",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Jemina Rissanen",
+    title: "Pulse contour methods in predicting fluid responsiveness",
+    fiTitle: "Pulse contour methods in predicting fluid responsiveness",
+    theme: "Fluid responsiveness",
+    fiTheme: "Nestevasteisuus",
+    supervisor: "Panu Piirainen",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Jasu Anttila",
+    title: "Cardiac output and pulmonary artery pressure: pulmonary artery catheter compared with transthoracic echocardiography in ICU patients",
+    fiTitle: "Cardiac output and pulmonary artery pressure: pulmonary artery catheter compared with transthoracic echocardiography in ICU patients",
+    theme: "Pulmonary artery catheter and echocardiography",
+    fiTheme: "Keuhkovaltimokatetri ja kaikukuvaus",
+    supervisor: "Ulla Koskela",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Planned",
+    fiStatus: "Suunnitteilla"
+  },
+  {
+    name: "Petteri Holm",
+    title: "Determinants of outcome in cardiac surgical patients monitored with pulmonary artery catheter",
+    fiTitle: "Determinants of outcome in cardiac surgical patients monitored with pulmonary artery catheter",
+    theme: "Pulmonary artery catheter and outcomes",
+    fiTheme: "Keuhkovaltimokatetri ja hoitotulokset",
+    supervisor: "Tiina Erkinaro",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Janne Pikkarainen",
+    title: "Vasoactive-inotropic score and norepinephrine requirements as markers of outcome in cardiac surgical and intensive care patients",
+    fiTitle: "Vasoactive-inotropic score and norepinephrine requirements as markers of outcome in cardiac surgical and intensive care patients",
+    theme: "ICU outcomes",
+    fiTheme: "Tehohoidon hoitotulokset",
+    supervisor: "Hanna Säkkinen",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Henrik Rousti",
+    title: "Derived hemodynamic parameters as determinants of outcome in cardiac surgical patients",
+    fiTitle: "Derived hemodynamic parameters as determinants of outcome in cardiac surgical patients",
+    theme: "Oxygen delivery and derived parameters",
+    fiTheme: "Hapenkuljetus ja johdetut muuttujat",
+    supervisor: "Panu Piirainen",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Henna Yliheikkilä",
+    title: "The role of mixed venous oxygen saturation and arterial lactate as predictors of mortality and organ dysfunction after cardiac surgery",
+    fiTitle: "The role of mixed venous oxygen saturation and arterial lactate as predictors of mortality and organ dysfunction after cardiac surgery",
+    theme: "SvO₂, lactate and outcomes",
+    fiTheme: "SvO₂, laktaatti ja hoitotulokset",
+    supervisor: "Hanna Säkkinen",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Pasi Lehto",
+    title: "Comparisons of spinal and general anaesthesia in tibial shaft and ankle fracture surgery",
+    fiTitle: "Comparisons of spinal and general anaesthesia in tibial shaft and ankle fracture surgery",
+    theme: "Anaesthesia methods",
+    fiTheme: "Anestesiamenetelmät",
+    supervisor: "Merja Vakkala",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Mattias Ebeling",
+    title: "Comparisons of different anaesthesia methods in lower limb surgery",
+    fiTitle: "Comparisons of different anaesthesia methods in lower limb surgery",
+    theme: "Anaesthesia methods",
+    fiTheme: "Anestesiamenetelmät",
+    supervisor: "Merja Vakkala",
+    supervisorRole: "Co-supervisor",
+    fiSupervisorRole: "Muu ohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  },
+  {
+    name: "Marika Padalla",
+    title: "Point-of-care anticoagulation monitoring in cardiovascular procedures",
+    fiTitle: "Point-of-care anticoagulation monitoring in cardiovascular procedures",
+    theme: "Point-of-care monitoring",
+    fiTheme: "Vieritestaus",
+    supervisor: "Tiina Erkinaro",
+    supervisorRole: "Principal supervisor",
+    fiSupervisorRole: "Pääohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
+  }
+];
 
 const completedProjects = [
-  ["Laura Ylikauma", "Bioreactance and arterial waveform analyses compared with bolus thermodilution cardiac output in high-risk surgeries", "Defended 1 Sep 2023"],
-  ["Juho Nurkkala", "Commencement of nutrition support during critical illness and after major surgery", "Defended 13 May 2022"],
-  ["Katriina Lanning", "Pulmonary artery catheter compared with less invasive hemodynamic assessment in cardiac surgical patients", "Defended 24 Mar 2023"],
-  ["Janne Moilanen", "Validating two divergent activated clotting time tests of heparin anticoagulation in cardiac surgical patients and in vitro", "Defended 6 Jun 2025"]
-].map(([name, title, theme]) => ({ name, title, theme, supervisor: "Supervised doctoral project" }));
+  {
+    name: "Laura Ylikauma",
+    title: "Bioreactance and arterial waveform analyses compared with bolus thermodilution cardiac output in high-risk surgeries",
+    fiTitle: "Bioreactance and arterial waveform analyses compared with bolus thermodilution cardiac output in high-risk surgeries",
+    theme: "Hemodynamic monitoring",
+    fiTheme: "Hemodynaaminen monitorointi",
+    supervisor: "Primary supervision",
+    fiSupervisor: "Pääohjaus",
+    status: "Defended 1 Sep 2023",
+    fiStatus: "Väitellyt 1.9.2023"
+  },
+  {
+    name: "Juho Nurkkala",
+    title: "Commencement of nutrition support during critical illness and after major surgery",
+    fiTitle: "Commencement of nutrition support during critical illness and after major surgery",
+    theme: "Critical care and perioperative outcomes",
+    fiTheme: "Tehohoito ja perioperatiiviset tulokset",
+    supervisor: "Co-supervision",
+    fiSupervisor: "Muu ohjaus",
+    status: "Defended 13 May 2022",
+    fiStatus: "Väitellyt 13.5.2022"
+  },
+  {
+    name: "Katriina Lanning",
+    title: "Pulmonary artery catheter compared with less invasive hemodynamic assessment in cardiac surgical patients",
+    fiTitle: "Pulmonary artery catheter compared with less invasive hemodynamic assessment in cardiac surgical patients",
+    theme: "Pulmonary artery catheter",
+    fiTheme: "Keuhkovaltimokatetri",
+    supervisor: "Co-supervision",
+    fiSupervisor: "Muu ohjaus",
+    status: "Defended 24 Mar 2023",
+    fiStatus: "Väitellyt 24.3.2023"
+  },
+  {
+    name: "Janne Moilanen",
+    title: "Validating two divergent activated clotting time tests of heparin anticoagulation in cardiac surgical patients and in vitro",
+    fiTitle: "Validating two divergent activated clotting time tests of heparin anticoagulation in cardiac surgical patients and in vitro",
+    theme: "Point-of-care monitoring",
+    fiTheme: "Vieritestaus",
+    supervisor: "Co-supervision",
+    fiSupervisor: "Muu ohjaus",
+    status: "Defended 6 Jun 2025",
+    fiStatus: "Väitellyt 6.6.2025"
+  }
+];
 
 const publications = [
   "Kaakinen T et al. Association of low mixed venous oxygen saturations during early ICU stay with increased 30-day and 1-year mortality after cardiac surgery. BMC Anesthesiology. 2022.",
@@ -237,10 +443,13 @@ function renderProjects(list = projects) {
   if (!target) return;
   target.innerHTML = list.map((item) => `
     <article class="project-card">
-      <div class="project-tags"><span class="tag">${item.theme}</span></div>
+      <div class="project-tags">
+        <span class="tag">${textFor(item, "theme")}</span>
+        <span class="tag light">${textFor(item, "status")}</span>
+      </div>
       <h3>${item.name}</h3>
-      <p>${item.title}</p>
-      <div class="supervisor">${item.supervisor}</div>
+      <p>${textFor(item, "title")}</p>
+      <div class="supervisor">${textFor(item, "supervisorRole")}: ${item.supervisor}</div>
     </article>
   `).join("");
 }
@@ -250,10 +459,13 @@ function renderCompleted() {
   if (!target) return;
   target.innerHTML = completedProjects.map((item) => `
     <article class="project-card">
-      <div class="project-tags"><span class="tag dark">${item.theme}</span></div>
+      <div class="project-tags">
+        <span class="tag dark">${textFor(item, "theme")}</span>
+        <span class="tag light">${textFor(item, "status")}</span>
+      </div>
       <h3>${item.name}</h3>
-      <p>${item.title}</p>
-      <div class="supervisor">${item.supervisor}</div>
+      <p>${textFor(item, "title")}</p>
+      <div class="supervisor">${textFor(item, "supervisor")}</div>
     </article>
   `).join("");
 }
@@ -273,14 +485,14 @@ function setupFilters() {
   const search = document.getElementById("projectSearch");
   const select = document.getElementById("themeFilter");
   if (!search || !select) return;
-  const themes = [...new Set(projects.map((item) => item.theme))].sort();
-  select.innerHTML = `<option value="">${data[currentLang].allThemes}</option>` + themes.map((theme) => `<option value="${theme}">${theme}</option>`).join("");
+  const themes = [...new Map(projects.map((item) => [item.theme, textFor(item, "theme")])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  select.innerHTML = `<option value="">${data[currentLang].allThemes}</option>` + themes.map(([value, label]) => `<option value="${value}">${label}</option>`).join("");
 
   const filter = () => {
     const q = search.value.toLowerCase().trim();
     const theme = select.value;
     const filtered = projects.filter((item) => {
-      const text = `${item.name} ${item.title} ${item.theme} ${item.supervisor}`.toLowerCase();
+      const text = `${item.name} ${item.title} ${item.fiTitle || ""} ${item.theme} ${item.fiTheme || ""} ${item.supervisor} ${item.supervisorRole} ${item.fiSupervisorRole}`.toLowerCase();
       return (!q || text.includes(q)) && (!theme || item.theme === theme);
     });
     renderProjects(filtered);
