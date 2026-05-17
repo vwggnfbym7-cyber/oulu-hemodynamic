@@ -17,15 +17,23 @@
           <span class="brand-subtitle" data-i18n="hospital">Oulu University Hospital</span>
         </span>
       </a>
-      <nav class="nav" aria-label="Main navigation">
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
         <a href="#research" data-i18n="navResearch">Research</a>
         <a href="#people" data-i18n="navPeople">People</a>
         <a href="#publications" data-i18n="navPublications">Publications</a>
         <a href="#contact" data-i18n="navContact">Contact</a>
       </nav>
+
       <div class="language-switcher" aria-label="Language selection">
-        <button type="button" class="lang-btn active" data-lang="en">🇬🇧 EN</button>
-        <button type="button" class="lang-btn" data-lang="fi">🇫🇮 FI</button>
+        <button type="button" class="lang-btn active" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="fi">FI</button>
       </div>
     </div>
   </header>
@@ -119,7 +127,6 @@
       </div>
     </section>
 
-
     <section class="section white" id="methods">
       <div class="container">
         <div class="section-title">
@@ -165,7 +172,6 @@
           <select id="themeFilter" aria-label="Theme filter"></select>
         </div>
         <div class="project-grid" id="projectGrid"></div>
-
         <h3 class="subheading" data-i18n="completedTitle">Completed doctoral projects</h3>
         <div class="project-grid completed" id="completedGrid"></div>
       </div>
@@ -196,51 +202,46 @@
           </div>
         </div>
       </div>
-
       <div class="container environment-info-grid">
-        <div class="environment-card environment-text-card">
+        <div class="card environment-text-card">
           <p data-i18n="clinicalText">The group is based at Oulu University Hospital, a tertiary academic hospital in Northern Finland. The research environment enables clinically relevant studies using perioperative, cardiac surgical and intensive care data, with strong connections to anaesthesia, intensive care, cardiac surgery, vascular surgery and high-risk perioperative medicine.</p>
         </div>
-        <div class="collaboration-card">
+        <div class="card collaboration-card">
           <h3 data-i18n="collaborationTitle">Collaboration</h3>
           <p data-i18n="collaborationText">We welcome collaboration in hemodynamic monitoring, method-comparison research, perioperative outcomes and clinical data-driven research.</p>
         </div>
       </div>
     </section>
 
-
-    <section class="section white" id="data-privacy">
-      <div class="container data-privacy-card">
-        <span class="eyebrow" data-i18n="dataPrivacyEyebrow">Data and privacy</span>
-        <h2 data-i18n="dataPrivacyTitle">Research approvals and data protection</h2>
-        <p data-i18n="dataPrivacyText">All clinical studies are conducted under appropriate institutional approvals, ethical review where required, and applicable data protection regulations.</p>
-      </div>
-    </section>
-
     <section id="contact" class="section white">
       <div class="container contact-card">
+        <div>
+          <span class="eyebrow" data-i18n="dataEyebrow">Data and privacy</span>
+          <h2 data-i18n="dataTitle">Research approvals and data protection</h2>
+          <p data-i18n="dataText">All clinical studies are conducted under appropriate institutional approvals, ethical review where required, and applicable data protection regulations.</p>
+        </div>
         <div>
           <span class="eyebrow" data-i18n="contactEyebrow">Contact</span>
           <h2 data-i18n="contactTitle">Interested in collaboration?</h2>
           <p data-i18n="contactText">For research collaboration, doctoral projects or questions related to perioperative hemodynamics and monitoring research, please contact the principal investigator. We are open to discussing doctoral research projects related to perioperative hemodynamics, monitoring and outcomes.</p>
-        </div>
-        <div class="contact-box">
-          <h3>Timo Kaakinen</h3>
-          <p><span data-i18n="hospital">Oulu University Hospital</span> · <span data-i18n="university">University of Oulu</span></p>
-          <button type="button" id="emailButton" class="contact-link">✉ timo.kaakinen [at] oulu.fi</button>
-          <a class="contact-link" href="https://orcid.org/0000-0001-5125-245X" target="_blank" rel="noreferrer">↗ ORCID: 0000-0001-5125-245X</a>
+          <div class="contact-box">
+            <strong>Timo Kaakinen</strong>
+            <span data-i18n="contactAffiliation">Oulu University Hospital · University of Oulu</span>
+            <span>✉ timo.kaakinen [at] oulu.fi</span>
+            <a href="https://orcid.org/0000-0001-5125-245X" target="_blank" rel="noreferrer">↗ ORCID: 0000-0001-5125-245X</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="site-footer">
     <div class="container footer-inner">
-      <p id="footerTitle">© Oulu Perioperative and Critical Care Hemodynamics Research Group</p>
       <div>
-        <p data-i18n="footer">Oulu University Hospital · University of Oulu · Pohde</p>
-        <p class="last-updated" data-i18n="lastUpdated">Last updated: 16 May 2026</p>
+        <strong data-i18n="footerGroup">Oulu Perioperative and Critical Care Hemodynamics Research Group</strong>
+        <span data-i18n="footerAffiliation">Oulu University Hospital · University of Oulu · Pohde</span>
       </div>
+      <span data-i18n="lastUpdated">Last updated: 17 May 2026</span>
     </div>
   </footer>
 
