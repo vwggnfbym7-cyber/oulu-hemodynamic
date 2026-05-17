@@ -345,7 +345,7 @@ const projects = [
     fiStatus: "Käynnissä"
   },
   {
-    name: "Marika Padalla",
+    name: "Marika Pada",
     title: "Point-of-care anticoagulation monitoring in cardiovascular procedures",
     fiTitle: "Point-of-care anticoagulation monitoring in cardiovascular procedures",
     theme: "Point-of-care monitoring",
