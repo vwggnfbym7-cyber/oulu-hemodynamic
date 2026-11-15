@@ -43,6 +43,9 @@ const data = {
     peopleText: "Projects are grouped around hemodynamic monitoring, pulmonary artery catheter data, oxygen delivery, dynamic parameters, fluid responsiveness, anaesthesia methods and point-of-care monitoring.",
     searchPlaceholder: "Search by name, title, theme or supervisor",
     allThemes: "All themes",
+    husProjectsTitle: "Doctoral projects co-supervised in collaboration with HUS",
+    principalSupervisor: "Principal supervisor",
+    coSupervisor: "Co-supervisor",
     completedTitle: "Completed doctoral projects",
     selectedEyebrow: "Selected publications",
     selectedTitle: "Key publications",
@@ -63,7 +66,7 @@ const data = {
     contactAffiliation: "Oulu University Hospital · University of Oulu",
     footerGroup: "Oulu Perioperative and Critical Care Hemodynamics Research Group",
     footerAffiliation: "Oulu University Hospital · University of Oulu · Pohde",
-    lastUpdated: "Last updated: 17 May 2026"
+    lastUpdated: "Last updated: 15 November 2026"
   },
   fi: {
     shortName: "Oulun kliinisen hemodynamiikan tutkimusryhmä",
@@ -109,6 +112,9 @@ const data = {
     peopleText: "Hankkeet liittyvät hemodynaamiseen monitorointiin, keuhkovaltimokatetriaineistoihin, hapenkuljetukseen, dynaamisiin muuttujiin, nestevasteisuuteen, anestesiamenetelmiin ja vierimittauksiin.",
     searchPlaceholder: "Hae nimellä, otsikolla, teemalla tai ohjaajalla",
     allThemes: "Kaikki teemat",
+    husProjectsTitle: "HUS-yhteistyössä ohjattavat väitöskirjahankkeet",
+    principalSupervisor: "Pääohjaaja",
+    coSupervisor: "Muu ohjaaja",
     completedTitle: "Valmistuneet väitöskirjahankkeet",
     selectedEyebrow: "Valitut julkaisut",
     selectedTitle: "Keskeiset julkaisut",
@@ -129,15 +135,15 @@ const data = {
     contactAffiliation: "Oulun yliopistollinen sairaala · Oulun yliopisto",
     footerGroup: "Oulun perioperatiivisen ja tehohoidon hemodynamiikan tutkimusryhmä",
     footerAffiliation: "Oulun yliopistollinen sairaala · Oulun yliopisto · Pohde",
-    lastUpdated: "Päivitetty: 17.5.2026"
+    lastUpdated: "Päivitetty: 15.11.2026"
   }
 };
 
 const stats = [
-  { value: "59", en: "Peer-reviewed original articles", fi: "Vertaisarvioitua alkuperäisartikkelia" },
-  { value: "13", en: "Ongoing doctoral projects", fi: "Käynnissä olevaa väitöskirjahanketta" },
+  { value: "64", en: "Scientific publications", fi: "Tieteellistä julkaisua" },
+  { value: "17", en: "Ongoing doctoral projects", fi: "Käynnissä olevaa väitöskirjahanketta" },
   { value: "4", en: "Completed doctoral supervisions", fi: "Valmistunutta väitöskirjaohjausta" },
-  { value: "12", en: "Scopus h-index", fi: "Scopus h-indeksi" }
+  { value: "14", en: "Scopus h-index", fi: "Scopus h-indeksi" }
 ];
 
 const themes = [
@@ -262,15 +268,15 @@ const projects = [
   },
   {
     name: "Jasu Anttila",
-    title: "Cardiac output and pulmonary artery pressure: pulmonary artery catheter compared with transthoracic echocardiography in ICU patients",
-    fiTitle: "Cardiac output and pulmonary artery pressure: pulmonary artery catheter compared with transthoracic echocardiography in ICU patients",
+    title: "Reliability of transthoracic echocardiography-derived cardiac output and pulmonary artery pressure in comparison with thermodilution cardiac output",
+    fiTitle: "Reliability of transthoracic echocardiography-derived cardiac output and pulmonary artery pressure in comparison with thermodilution cardiac output",
     theme: "Pulmonary artery catheter and echocardiography",
     fiTheme: "Keuhkovaltimokatetri ja kaikukuvaus",
     supervisor: "Ulla Koskela",
     supervisorRole: "Co-supervisor",
     fiSupervisorRole: "Muu ohjaaja",
-    status: "Planned",
-    fiStatus: "Suunnitteilla"
+    status: "Ongoing",
+    fiStatus: "Käynnissä"
   },
   {
     name: "Petteri Holm",
@@ -355,6 +361,32 @@ const projects = [
     fiSupervisorRole: "Pääohjaaja",
     status: "Ongoing",
     fiStatus: "Käynnissä"
+  },
+  {
+    name: "Pedram Hosseini",
+    title: "Digital Twins and Reinforcement Learning for Personalized Anesthesia: Development and Clinical Evaluation of Intelligent Hemodynamic Decision Support",
+    fiTitle: "Digital Twins and Reinforcement Learning for Personalized Anesthesia: Development and Clinical Evaluation of Intelligent Hemodynamic Decision Support",
+    theme: "Digital twins and decision support",
+    fiTheme: "Digitaaliset kaksoset ja päätöksenteon tuki",
+    supervisor: "Erik Litonius",
+    supervisorRole: "Principal supervisor",
+    fiSupervisorRole: "Pääohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä",
+    collaboration: "HUS"
+  },
+  {
+    name: "Mari Sipilä",
+    title: "Perioperative systemic hemodynamics and graft function in kidney transplantation",
+    fiTitle: "Perioperative systemic hemodynamics and graft function in kidney transplantation",
+    theme: "Kidney transplantation",
+    fiTheme: "Munuaisensiirrot",
+    supervisor: "Minna Ilmakunnas",
+    supervisorRole: "Principal supervisor",
+    fiSupervisorRole: "Pääohjaaja",
+    status: "Ongoing",
+    fiStatus: "Käynnissä",
+    collaboration: "HUS"
   }
 ];
 
@@ -478,10 +510,18 @@ function renderCards(targetId, items, className) {
   `).join("");
 }
 
-function renderProjects(list = projects) {
-  const target = document.getElementById("projectGrid");
+function projectSupervisors(item) {
+  return item.supervisorRole === "Principal supervisor"
+    ? { principal: item.supervisor, co: "Timo Kaakinen" }
+    : { principal: "Timo Kaakinen", co: item.supervisor };
+}
+
+function renderProjectCards(targetId, list) {
+  const target = document.getElementById(targetId);
   if (!target) return;
-  target.innerHTML = list.map((item) => `
+  target.innerHTML = list.map((item) => {
+    const supervisors = projectSupervisors(item);
+    return `
     <article class="project-card">
       <div class="project-tags">
         <span class="tag">${textFor(item, "theme")}</span>
@@ -489,9 +529,18 @@ function renderProjects(list = projects) {
       </div>
       <h3>${item.name}</h3>
       <p>${textFor(item, "title")}</p>
-      <div class="supervisor">${textFor(item, "supervisorRole")}: ${item.supervisor}</div>
+      <div class="supervisor">${data[currentLang].principalSupervisor}: ${supervisors.principal}<br>${data[currentLang].coSupervisor}: ${supervisors.co}</div>
     </article>
-  `).join("");
+  `;
+  }).join("");
+}
+
+function renderProjects(list = projects) {
+  renderProjectCards("projectGrid", list.filter((item) => item.collaboration !== "HUS"));
+  const husProjects = list.filter((item) => item.collaboration === "HUS");
+  renderProjectCards("husProjectGrid", husProjects);
+  const husSection = document.getElementById("husProjects");
+  if (husSection) husSection.hidden = husProjects.length === 0;
 }
 
 function renderCompleted() {
@@ -529,20 +578,24 @@ function setupFilters() {
   const search = document.getElementById("projectSearch");
   const select = document.getElementById("themeFilter");
   if (!search || !select) return;
+  const selectedTheme = select.value;
   const themes = [...new Map(projects.map((item) => [item.theme, textFor(item, "theme")])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
   select.innerHTML = `<option value="">${data[currentLang].allThemes}</option>` + themes.map(([value, label]) => `<option value="${value}">${label}</option>`).join("");
+  select.value = selectedTheme;
 
   const filter = () => {
     const q = search.value.toLowerCase().trim();
     const theme = select.value;
     const filtered = projects.filter((item) => {
-      const text = `${item.name} ${item.title} ${item.fiTitle || ""} ${item.theme} ${item.fiTheme || ""} ${item.supervisor} ${item.supervisorRole} ${item.fiSupervisorRole}`.toLowerCase();
+      const supervisors = projectSupervisors(item);
+      const text = `${item.name} ${item.title} ${item.fiTitle || ""} ${item.theme} ${item.fiTheme || ""} ${supervisors.principal} ${supervisors.co} ${item.supervisorRole} ${item.fiSupervisorRole} ${item.collaboration || ""}`.toLowerCase();
       return (!q || text.includes(q)) && (!theme || item.theme === theme);
     });
     renderProjects(filtered);
   };
-  search.addEventListener("input", filter);
-  select.addEventListener("change", filter);
+  search.oninput = filter;
+  select.onchange = filter;
+  filter();
 }
 
 function applyLanguage() {
