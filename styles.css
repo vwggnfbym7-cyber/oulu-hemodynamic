@@ -89,6 +89,23 @@ h1 { margin: 20px 0 0; font-size: clamp(40px, 6vw, 76px); line-height: .96; lett
 .theme-icon { width: 68px; height: 68px; border-radius: 22px; display: grid; place-items: center; margin-bottom: 18px; font-size: 30px; background: var(--blue-50); }
 .theme-card h3, .approach-card h3, .portfolio-card h3, .method-card h3, .research-collaboration-card h3, .collaboration-card h3 { margin: 0; font-size: 19px; letter-spacing: -0.015em; }
 .theme-card p, .approach-card p, .portfolio-card p, .method-card p, .research-collaboration-card p, .collaboration-card p { margin: 12px 0 0; color: var(--slate-600); font-size: 14px; line-height: 1.7; }
+.methods-article { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 38px; align-items: center; margin-top: 32px; padding: 34px; border: 1px solid var(--slate-200); border-radius: 28px; background: var(--blue-50); }
+.methods-article-preview img { display: block; width: 100%; height: auto; border: 1px solid var(--slate-200); box-shadow: 0 12px 28px rgba(15,23,42,.12); }
+.methods-article h3 { margin: 12px 0; max-width: 760px; color: var(--blue-950); font-size: clamp(25px, 3vw, 34px); line-height: 1.15; letter-spacing: -.025em; }
+.methods-article p { margin: 12px 0; color: var(--slate-600); line-height: 1.7; }
+.methods-article .methods-article-authors { font-size: 13px; }
+.methods-article-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.methods-article-primary { background: var(--blue-900); color: white; }
+.methods-article-secondary { background: white; color: var(--blue-900); box-shadow: inset 0 0 0 1px var(--slate-300); }
+.methods-article-actions a:hover { box-shadow: 0 4px 14px rgba(15,23,42,.16); }
+.methods-article-source { display: inline-block; margin-top: 17px; color: var(--blue-900); font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.methods-article a:focus-visible { outline: 3px solid var(--blue-700); outline-offset: 4px; }
+@media (max-width: 680px) {
+  .methods-article { grid-template-columns: minmax(0, 1fr); padding: 24px; gap: 26px; }
+  .methods-article-preview { width: min(180px, 100%); }
+  .methods-article-actions { align-items: stretch; flex-direction: column; }
+  .methods-article-actions .button { text-align: center; }
+}
 .pi-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 42px; align-items: center; }
 .pi-profile-card { position: relative; }
 .profile-image { display: block; width: 100%; border-radius: 28px; box-shadow: var(--shadow); }
