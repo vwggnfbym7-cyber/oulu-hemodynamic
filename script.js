@@ -1,5 +1,11 @@
 const data = {
   en: {
+    fundingTitle: "Research Council of Finland funding for hemodynamic research",
+    fundingAim: "The Research Council of Finland has awarded funding to the Anesthesia Intelligence consortium, which aims to improve hemodynamic control and reduce postoperative complications through simulation intelligence.",
+    fundingPartners: "The consortium brings together HUS Helsinki University Hospital, Aalto University and Oulu University Hospital (OYS). HUS is the coordinating institution, and the consortium is led by Adjunct Professor Erik Litonius. The Aalto University subproject is led by Professor Antti Oulasvirta, and the Oulu University Hospital subproject by Adjunct Professor Timo Kaakinen.",
+    fundingBudget: "The Oulu University Hospital subproject has total funding of €795,130 for 2027–2030, comprising €556,592 from the Research Council of Finland and €238,538 in institutional co-funding from OYS.",
+    fundingGrant: "Research Council of Finland, grant number 380281.",
+    consortiumFundingLink: "Funding 2027–2030",
     shortName: "Oulu Hemodynamics Research Group",
     hospital: "Oulu University Hospital",
     navResearch: "Research",
@@ -78,9 +84,15 @@ const data = {
     contactAffiliation: "Oulu University Hospital · University of Oulu",
     footerGroup: "Oulu Perioperative and Critical Care Hemodynamics Research Group",
     footerAffiliation: "Oulu University Hospital · University of Oulu · Pohde",
-    lastUpdated: "Last updated: 15 November 2026"
+    lastUpdated: "Last updated: 24 November 2026"
   },
   fi: {
+    fundingTitle: "Suomen Akatemialta rahoitus anestesiologiseen tekoäly­tutkimukseen",
+    fundingAim: "Suomen Akatemia on myöntänyt rahoituksen Anesthesia Intelligence -konsortiolle, jonka tavoitteena on parantaa verenkierron hallintaa ja vähentää leikkauksen jälkeisiä komplikaatioita simulaatioälyn avulla.",
+    fundingPartners: "Konsortion osapuolet ovat HUS, Aalto-yliopisto ja Oulun yliopistollinen sairaala (OYS). Vetovastuu on HUSilla, ja konsortiota johtaa dosentti Erik Litonius. Aalto-yliopiston osahanketta johtaa professori Antti Oulasvirta ja OYS:n osahanketta dosentti Timo Kaakinen.",
+    fundingBudget: "OYS:n osahankkeen kokonaisrahoitus vuosille 2027–2030 on 795 130 euroa, josta Suomen Akatemian myöntämä rahoitus on 556 592 euroa ja OYS:n omarahoitusosuus 238 538 euroa.",
+    fundingGrant: "Suomen Akatemian päätösnumero 380281.",
+    consortiumFundingLink: "Rahoitus 2027–2030",
     shortName: "Oulun kliinisen hemodynamiikan tutkimusryhmä",
     hospital: "Oulun yliopistollinen sairaala",
     navResearch: "Tutkimus",
@@ -159,7 +171,7 @@ const data = {
     contactAffiliation: "Oulun yliopistollinen sairaala · Oulun yliopisto",
     footerGroup: "Oulun perioperatiivisen ja tehohoidon hemodynamiikan tutkimusryhmä",
     footerAffiliation: "Oulun yliopistollinen sairaala · Oulun yliopisto · Pohde",
-    lastUpdated: "Päivitetty: 15.11.2026"
+    lastUpdated: "Päivitetty: 24.11.2026"
   }
 };
 
